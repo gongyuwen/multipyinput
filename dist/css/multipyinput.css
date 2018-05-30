@@ -1,0 +1,1393 @@
+.multipyInput-container{
+	display: table;
+	position: relative;
+	width: 450px;
+}
+.multipyInput-container > .flag-container.dn{
+	display: none;
+}
+.multipyInput-container > .flag-container, .multipyInput-container > input[name]{
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	color: #999;
+	font-size: 14px;
+	height: 34px;
+	line-height: 1.42857;
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+}
+.multipyInput-container > .flag-container{
+	width: 52px;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+	border-right-width: 0;
+}
+.multipyInput-container input[name]
+{
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	padding: 6px 12px;
+	width: 100%;
+
+}
+
+.multipyInput-container .flag-container ul{
+//display: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #ccc;
+	left: 0;
+	list-style: none;
+	margin: 0;
+	margin-left: -1px;
+	max-height: 200px;
+	overflow-y: scroll;
+	padding: 0;
+	position: absolute;
+	top: 32px;
+	text-align: left;
+	white-space: nowrap;
+	z-index: 2;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+.multipyInput-container .flag-container ul.dn{
+	display: none;
+}
+.multipyInput-container > .flag-container > .selected-flag{
+	cursor: pointer;
+	padding: 6px 12px;
+}
+.multipyInput-container > .flag-container > ul > li{
+	padding: 6px 12px;
+	cursor: pointer;
+}
+.multipyInput-container > .flag-container >ul > li:hover, .multipyInput-container > .flag-container >ul > li.highlight{
+	background-color: #f3f3f4;
+}
+.multipyInput-container  > .flag-container .flag-item {
+	background-color: #dbdbdb;
+	background-image: url("../img/flags.png");
+	background-position: 20px 0;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 1px 0 #888;
+	height: 15px;
+	width: 20px;
+}
+.multipyInput-container > .flag-container > .selected-flag > .flag-arrow {
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid #555;
+	height: 0;
+	margin-top: -2px;
+	position: absolute;
+	right: 6px;
+	top: 50%;
+	width: 0;
+}
+.multipyInput-container > .flag-container > .selected-flag > .flag-arrow.open{
+	border-bottom: 4px solid #555;
+	border-top: medium none;
+}
+
+.multipyInput-container > .flag-container > .country-list > li > .flag-container{
+	width: 20px;
+	margin-right: 5px;
+	display: inline-block;
+}
+.multipyInput-container > .flag-container > .country-list > li > .country-name{
+	color:#333;
+}
+.multipyInput-container > .flag-container > .country-list > li > .dial-code{
+	font-size: 85%;
+}
+
+
+.multipyInput-container > .flag-container .flag-item.ac {
+	height: 10px;
+	background-position: 0px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ad {
+	height: 14px;
+	background-position: -22px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ae {
+	height: 10px;
+	background-position: -44px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.af {
+	height: 14px;
+	background-position: -66px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ag {
+	height: 14px;
+	background-position: -88px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ai {
+	height: 10px;
+	background-position: -110px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.al {
+	height: 15px;
+	background-position: -132px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.am {
+	height: 10px;
+	background-position: -154px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ao {
+	height: 14px;
+	background-position: -176px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.aq {
+	height: 14px;
+	background-position: -198px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ar {
+	height: 13px;
+	background-position: -220px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.as {
+	height: 10px;
+	background-position: -242px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.at {
+	height: 14px;
+	background-position: -264px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.au {
+	height: 10px;
+	background-position: -286px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.aw {
+	height: 14px;
+	background-position: -308px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ax {
+	height: 13px;
+	background-position: -330px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.az {
+	height: 10px;
+	background-position: -352px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ba {
+	height: 10px;
+	background-position: -374px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bb {
+	height: 14px;
+	background-position: -396px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bd {
+	height: 12px;
+	background-position: -418px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.be {
+	height: 15px;
+	background-position: -440px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bf {
+	height: 14px;
+	background-position: -460px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bg {
+	height: 12px;
+	background-position: -482px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bh {
+	height: 12px;
+	background-position: -504px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bi {
+	height: 12px;
+	background-position: -526px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bj {
+	height: 14px;
+	background-position: -548px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bl {
+	height: 14px;
+	background-position: -570px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bm {
+	height: 10px;
+	background-position: -592px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bn {
+	height: 10px;
+	background-position: -614px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bo {
+	height: 14px;
+	background-position: -636px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bq {
+	height: 14px;
+	background-position: -658px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.br {
+	height: 14px;
+	background-position: -680px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bs {
+	height: 10px;
+	background-position: -702px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bt {
+	height: 14px;
+	background-position: -724px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bv {
+	height: 15px;
+	background-position: -746px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bw {
+	height: 14px;
+	background-position: -768px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.by {
+	height: 10px;
+	background-position: -790px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.bz {
+	height: 14px;
+	background-position: -812px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ca {
+	height: 10px;
+	background-position: -834px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.cc {
+	height: 10px;
+	background-position: -856px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.cd {
+	height: 15px;
+	background-position: -878px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.cf {
+	height: 14px;
+	background-position: -900px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.cg {
+	height: 14px;
+	background-position: -922px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ch {
+	height: 15px;
+	background-position: -944px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ci {
+	height: 14px;
+	background-position: -961px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ck {
+	height: 10px;
+	background-position: -983px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.cl {
+	height: 14px;
+	background-position: -1005px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.cm {
+	height: 14px;
+	background-position: -1027px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.cn {
+	height: 14px;
+	background-position: -1049px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.co {
+	height: 14px;
+	background-position: -1071px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.cp {
+	height: 14px;
+	background-position: -1093px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.cr {
+	height: 12px;
+	background-position: -1115px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.cu {
+	height: 10px;
+	background-position: -1137px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.cv {
+	height: 12px;
+	background-position: -1159px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.cw {
+	height: 14px;
+	background-position: -1181px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.cx {
+	height: 10px;
+	background-position: -1203px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.cy {
+	height: 13px;
+	background-position: -1225px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.cz {
+	height: 14px;
+	background-position: -1247px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.de {
+	height: 12px;
+	background-position: -1269px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.dg {
+	height: 10px;
+	background-position: -1291px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.dj {
+	height: 14px;
+	background-position: -1313px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.dk {
+	height: 15px;
+	background-position: -1335px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.dm {
+	height: 10px;
+	background-position: -1357px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.do {
+	height: 13px;
+	background-position: -1379px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.dz {
+	height: 14px;
+	background-position: -1401px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ea {
+	height: 14px;
+	background-position: -1423px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ec {
+	height: 14px;
+	background-position: -1445px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ee {
+	height: 13px;
+	background-position: -1467px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.eg {
+	height: 14px;
+	background-position: -1489px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.eh {
+	height: 10px;
+	background-position: -1511px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.er {
+	height: 10px;
+	background-position: -1533px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.es {
+	height: 14px;
+	background-position: -1555px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.et {
+	height: 10px;
+	background-position: -1577px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.eu {
+	height: 14px;
+	background-position: -1599px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.fi {
+	height: 12px;
+	background-position: -1621px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.fj {
+	height: 10px;
+	background-position: -1643px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.fk {
+	height: 10px;
+	background-position: -1665px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.fm {
+	height: 11px;
+	background-position: -1687px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.fo {
+	height: 15px;
+	background-position: -1709px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.fr {
+	height: 14px;
+	background-position: -1731px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ga {
+	height: 15px;
+	background-position: -1753px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gb {
+	height: 10px;
+	background-position: -1775px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gd {
+	height: 12px;
+	background-position: -1797px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ge {
+	height: 14px;
+	background-position: -1819px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gf {
+	height: 14px;
+	background-position: -1841px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gg {
+	height: 14px;
+	background-position: -1863px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gh {
+	height: 14px;
+	background-position: -1885px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gi {
+	height: 10px;
+	background-position: -1907px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gl {
+	height: 14px;
+	background-position: -1929px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gm {
+	height: 14px;
+	background-position: -1951px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gn {
+	height: 14px;
+	background-position: -1973px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gp {
+	height: 14px;
+	background-position: -1995px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gq {
+	height: 14px;
+	background-position: -2017px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gr {
+	height: 14px;
+	background-position: -2039px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gs {
+	height: 10px;
+	background-position: -2061px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gt {
+	height: 13px;
+	background-position: -2083px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gu {
+	height: 11px;
+	background-position: -2105px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gw {
+	height: 10px;
+	background-position: -2127px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.gy {
+	height: 12px;
+	background-position: -2149px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.hk {
+	height: 14px;
+	background-position: -2171px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.hm {
+	height: 10px;
+	background-position: -2193px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.hn {
+	height: 10px;
+	background-position: -2215px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.hr {
+	height: 10px;
+	background-position: -2237px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ht {
+	height: 12px;
+	background-position: -2259px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.hu {
+	height: 10px;
+	background-position: -2281px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ic {
+	height: 14px;
+	background-position: -2303px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.id {
+	height: 14px;
+	background-position: -2325px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ie {
+	height: 10px;
+	background-position: -2347px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.il {
+	height: 15px;
+	background-position: -2369px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.im {
+	height: 10px;
+	background-position: -2391px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.in {
+	height: 14px;
+	background-position: -2413px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.io {
+	height: 10px;
+	background-position: -2435px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.iq {
+	height: 14px;
+	background-position: -2457px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ir {
+	height: 12px;
+	background-position: -2479px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.is {
+	height: 15px;
+	background-position: -2501px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.it {
+	height: 14px;
+	background-position: -2523px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.je {
+	height: 12px;
+	background-position: -2545px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.jm {
+	height: 10px;
+	background-position: -2567px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.jo {
+	height: 10px;
+	background-position: -2589px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.jp {
+	height: 14px;
+	background-position: -2611px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ke {
+	height: 14px;
+	background-position: -2633px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.kg {
+	height: 12px;
+	background-position: -2655px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.kh {
+	height: 13px;
+	background-position: -2677px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ki {
+	height: 10px;
+	background-position: -2699px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.km {
+	height: 12px;
+	background-position: -2721px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.kn {
+	height: 14px;
+	background-position: -2743px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.kp {
+	height: 10px;
+	background-position: -2765px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.kr {
+	height: 14px;
+	background-position: -2787px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.kw {
+	height: 10px;
+	background-position: -2809px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ky {
+	height: 10px;
+	background-position: -2831px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.kz {
+	height: 10px;
+	background-position: -2853px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.la {
+	height: 14px;
+	background-position: -2875px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.lb {
+	height: 14px;
+	background-position: -2897px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.lc {
+	height: 10px;
+	background-position: -2919px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.li {
+	height: 12px;
+	background-position: -2941px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.lk {
+	height: 10px;
+	background-position: -2963px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.lr {
+	height: 11px;
+	background-position: -2985px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ls {
+	height: 14px;
+	background-position: -3007px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.lt {
+	height: 12px;
+	background-position: -3029px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.lu {
+	height: 12px;
+	background-position: -3051px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.lv {
+	height: 10px;
+	background-position: -3073px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ly {
+	height: 10px;
+	background-position: -3095px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ma {
+	height: 14px;
+	background-position: -3117px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mc {
+	height: 15px;
+	background-position: -3139px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.md {
+	height: 10px;
+	background-position: -3160px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.me {
+	height: 10px;
+	background-position: -3182px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mf {
+	height: 14px;
+	background-position: -3204px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mg {
+	height: 14px;
+	background-position: -3226px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mh {
+	height: 11px;
+	background-position: -3248px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mk {
+	height: 10px;
+	background-position: -3270px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ml {
+	height: 14px;
+	background-position: -3292px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mm {
+	height: 14px;
+	background-position: -3314px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mn {
+	height: 10px;
+	background-position: -3336px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mo {
+	height: 14px;
+	background-position: -3358px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mp {
+	height: 10px;
+	background-position: -3380px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mq {
+	height: 14px;
+	background-position: -3402px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mr {
+	height: 14px;
+	background-position: -3424px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ms {
+	height: 10px;
+	background-position: -3446px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mt {
+	height: 14px;
+	background-position: -3468px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mu {
+	height: 14px;
+	background-position: -3490px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mv {
+	height: 14px;
+	background-position: -3512px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mw {
+	height: 14px;
+	background-position: -3534px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mx {
+	height: 12px;
+	background-position: -3556px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.my {
+	height: 10px;
+	background-position: -3578px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.mz {
+	height: 14px;
+	background-position: -3600px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.na {
+	height: 14px;
+	background-position: -3622px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.nc {
+	height: 10px;
+	background-position: -3644px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ne {
+	height: 15px;
+	background-position: -3666px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.nf {
+	height: 10px;
+	background-position: -3686px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ng {
+	height: 10px;
+	background-position: -3708px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ni {
+	height: 12px;
+	background-position: -3730px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.nl {
+	height: 14px;
+	background-position: -3752px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.no {
+	height: 15px;
+	background-position: -3774px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.np {
+	height: 15px;
+	background-position: -3796px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.nr {
+	height: 10px;
+	background-position: -3811px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.nu {
+	height: 10px;
+	background-position: -3833px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.nz {
+	height: 10px;
+	background-position: -3855px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.om {
+	height: 10px;
+	background-position: -3877px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.pa {
+	height: 14px;
+	background-position: -3899px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.pe {
+	height: 14px;
+	background-position: -3921px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.pf {
+	height: 14px;
+	background-position: -3943px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.pg {
+	height: 15px;
+	background-position: -3965px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ph {
+	height: 10px;
+	background-position: -3987px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.pk {
+	height: 14px;
+	background-position: -4009px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.pl {
+	height: 13px;
+	background-position: -4031px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.pm {
+	height: 14px;
+	background-position: -4053px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.pn {
+	height: 10px;
+	background-position: -4075px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.pr {
+	height: 14px;
+	background-position: -4097px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ps {
+	height: 10px;
+	background-position: -4119px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.pt {
+	height: 14px;
+	background-position: -4141px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.pw {
+	height: 13px;
+	background-position: -4163px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.py {
+	height: 11px;
+	background-position: -4185px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.qa {
+	height: 8px;
+	background-position: -4207px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.re {
+	height: 14px;
+	background-position: -4229px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ro {
+	height: 14px;
+	background-position: -4251px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.rs {
+	height: 14px;
+	background-position: -4273px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ru {
+	height: 14px;
+	background-position: -4295px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.rw {
+	height: 14px;
+	background-position: -4317px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.sa {
+	height: 14px;
+	background-position: -4339px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.sb {
+	height: 10px;
+	background-position: -4361px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.sc {
+	height: 10px;
+	background-position: -4383px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.sd {
+	height: 10px;
+	background-position: -4405px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.se {
+	height: 13px;
+	background-position: -4427px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.sg {
+	height: 14px;
+	background-position: -4449px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.sh {
+	height: 10px;
+	background-position: -4471px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.si {
+	height: 10px;
+	background-position: -4493px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.sj {
+	height: 15px;
+	background-position: -4515px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.sk {
+	height: 14px;
+	background-position: -4537px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.sl {
+	height: 14px;
+	background-position: -4559px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.sm {
+	height: 15px;
+	background-position: -4581px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.sn {
+	height: 14px;
+	background-position: -4603px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.so {
+	height: 14px;
+	background-position: -4625px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.sr {
+	height: 14px;
+	background-position: -4647px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ss {
+	height: 10px;
+	background-position: -4669px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.st {
+	height: 10px;
+	background-position: -4691px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.sv {
+	height: 12px;
+	background-position: -4713px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.sx {
+	height: 14px;
+	background-position: -4735px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.sy {
+	height: 14px;
+	background-position: -4757px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.sz {
+	height: 14px;
+	background-position: -4779px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ta {
+	height: 10px;
+	background-position: -4801px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.tc {
+	height: 10px;
+	background-position: -4823px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.td {
+	height: 14px;
+	background-position: -4845px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.tf {
+	height: 14px;
+	background-position: -4867px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.tg {
+	height: 13px;
+	background-position: -4889px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.th {
+	height: 14px;
+	background-position: -4911px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.tj {
+	height: 10px;
+	background-position: -4933px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.tk {
+	height: 10px;
+	background-position: -4955px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.tl {
+	height: 10px;
+	background-position: -4977px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.tm {
+	height: 14px;
+	background-position: -4999px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.tn {
+	height: 14px;
+	background-position: -5021px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.to {
+	height: 10px;
+	background-position: -5043px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.tr {
+	height: 14px;
+	background-position: -5065px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.tt {
+	height: 12px;
+	background-position: -5087px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.tv {
+	height: 10px;
+	background-position: -5109px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.tw {
+	height: 14px;
+	background-position: -5131px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.tz {
+	height: 14px;
+	background-position: -5153px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ua {
+	height: 14px;
+	background-position: -5175px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ug {
+	height: 14px;
+	background-position: -5197px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.um {
+	height: 11px;
+	background-position: -5219px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.us {
+	height: 11px;
+	background-position: -5241px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.uy {
+	height: 14px;
+	background-position: -5263px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.uz {
+	height: 10px;
+	background-position: -5285px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.va {
+	height: 15px;
+	background-position: -5307px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.vc {
+	height: 14px;
+	background-position: -5324px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ve {
+	height: 14px;
+	background-position: -5346px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.vg {
+	height: 10px;
+	background-position: -5368px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.vi {
+	height: 14px;
+	background-position: -5390px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.vn {
+	height: 14px;
+	background-position: -5412px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.vu {
+	height: 12px;
+	background-position: -5434px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.wf {
+	height: 14px;
+	background-position: -5456px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ws {
+	height: 10px;
+	background-position: -5478px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.xk {
+	height: 15px;
+	background-position: -5500px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.ye {
+	height: 14px;
+	background-position: -5522px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.yt {
+	height: 14px;
+	background-position: -5544px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.za {
+	height: 14px;
+	background-position: -5566px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.zm {
+	height: 14px;
+	background-position: -5588px 0px
+}
+
+.multipyInput-container > .flag-container .flag-item.zw {
+	height: 10px;
+	background-position: -5610px 0px
+}

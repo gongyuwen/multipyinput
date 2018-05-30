@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Test Page</title>
+  <link rel="stylesheet" href="dist/css/multipyinput.min.css">
+
+  <link rel="stylesheet" href="dist/css/demo.css">
+</head>
+
+<body>
+  <h1>Test Page</h1>
+
+  	<input type="text" name="char" placeholder="Email / Mobile"/>
+
+
+
+    <!--<input type="tel" name="number">
+    
+    <input type="text" name="char" placeholder="Email / Mobile"/>-->
+    
+    <button type="button">Submit</button>
+
+
+	<script src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+	<script src="dist/js/multipyInput.min.js"></script>
+	
+	<script>
+	/**
+	isValidNumber( number, countryCode );
+
+    formatNumber(number, countryCode,  phoneUtil.numberFormat.INTERNATIONAL || phoneUtil.numberFormat.NATIONAL );
+    
+    
+    getExampleNumber( countryCode, true|false, phoneUtil.numberType.MOBILE )
+    
+    getNumberType( number , countryCode );
+    
+    getValidationError( number, countryCode );
+	**/
+
+	
+	$('input[name=char]').multipyInput();
+	
+	$('input[name=char]').on('typechange.multipyInput', function(e){
+		//alert('typechange' + e.multiInputType );
+	});
+	
+	$('button').click(function(){
+		alert('Valid? ' + $('input[name=char]').multipyInput('isValid') );
+	});
+	</script>
+</body>
+
+</html>
